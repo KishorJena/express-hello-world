@@ -1,7 +1,7 @@
 import WindowManager from './WindowManager.js'
 // const require('./WindowManager.js')
-import * as THREE from 'three';
-
+// import * as THREE from 'three';
+import * as THREE from './three/build/three.module.js';
 
 const t = THREE;
 let camera, scene, renderer, world;
